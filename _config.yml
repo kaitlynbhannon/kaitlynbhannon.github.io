@@ -126,6 +126,7 @@ include:
   - _pages
   - code
   - code/syringe-pump
+  - arduino-code
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
