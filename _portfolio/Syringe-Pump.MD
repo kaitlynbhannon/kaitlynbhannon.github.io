@@ -12,7 +12,7 @@ gallery:
 ---
 ---
 
-# Features
+# How it Works:
 
 * Syringe pump uses a motor-driven linear actuator to deliver fluid at a controlled flow rate for a specified duration. The system is constructed on an aluminum linear extrusion frame with custom 3D-printed components, including a carriage. When activated, the motor rotates a lead screw, which drives a coupler and translates the carriage linearly. This motion advances the syringe plunger, enabling precise and repeatable fluid dispensing.
 * LED light indicates when the system is in motion (green), idle (yellow), and empty (red). A limit switch is embedded in a custom 3D printed component. This switch is pressed when the carriage reaches the end of its track, indicating that the syringe is out of liquid.
