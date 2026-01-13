@@ -22,9 +22,16 @@ Kaitlyn has 4+ years of hands-on experience working in the medical device field 
 * Arduino
 * LabVIEW
 
+## Work Experience
+
+Boston Scientific Urology Sustaining R&D Intern (May 2025 - Aug 2025)
+* Contributed to the redesign of a ureteroscope, saving millions of dollars in manufacturing costs; operated 3 concurrent
+mechanical test flows (16 total tests) and conducted aged-part evaluations with graphical analysis
+* Created visual plots and ran Minitab capability analyses; led root-cause investigations using Problem-Solving Road Map
+* Supported test method validation through Gauge R&Rs; refined methods by trialing, integrated updates into procedures
+
 ## Press 
 
 As a Team Lead, Kaitlyn presented her 2023 TOM Makeathon project at the [Makeathon Showcase](https://www.youtube.com/watch?v=Fx-5khizxQ0).
 
-<img src="assets/img/Github-Headshot.png" alt="Kaitlyn Hannon" style="width:200px;">
 
