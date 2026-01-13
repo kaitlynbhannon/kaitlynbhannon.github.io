@@ -201,6 +201,6 @@ gallery:
 
 # Firmware
 
-[View Arduino Control Code](code/syringe-pump/SP2-Code.ino)
+[View Arduino Control Code](arduino-code/SP2-Code.ino)
 
 {% include gallery caption="Syringe Pump Gallery" %}
