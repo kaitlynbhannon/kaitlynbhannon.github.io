@@ -124,7 +124,7 @@ footer:
 include:
   - .htaccess
   - _pages
-  - code
+  - code/syringe-pump
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
