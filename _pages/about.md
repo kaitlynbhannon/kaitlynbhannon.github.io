@@ -26,4 +26,5 @@ Kaitlyn has 4+ years of hands-on experience working in the medical device field 
 
 As a Team Lead, Kaitlyn presented her 2023 TOM Makeathon project at the [Makeathon Showcase](https://www.youtube.com/watch?v=Fx-5khizxQ0).
 
-<img src="/assets/img/Github Headshot.PNG" alt="Kaitlyn Hannon" style="width:200px;"/>
+<img src="assets/img/Github-Headshot.png" alt="Kaitlyn Hannon" style="width:200px;">
+
