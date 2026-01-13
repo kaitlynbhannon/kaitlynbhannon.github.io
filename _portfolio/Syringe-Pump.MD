@@ -199,5 +199,8 @@ gallery:
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028116dd7178f878972dd?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
+# Firmware
+
+[View Arduino Control Code](assets/img/SP-Code.ino)
 
 {% include gallery caption="Syringe Pump Gallery" %}
