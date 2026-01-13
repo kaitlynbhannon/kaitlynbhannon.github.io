@@ -2,7 +2,7 @@
 title: "Syringe Pump"
 excerpt: "DIY syringe pump capable of 1 microliter per minute flow rate up to 10 milliliters per minute"
 header:
-  image: /assets/img/SP-Carriage.jpg
+  image: /assets/img/SP-Carriage.png
   teaser: /assets/img/SP-Body.png
 gallery:
   - image_path: assets/img/SP-Wiring.png
