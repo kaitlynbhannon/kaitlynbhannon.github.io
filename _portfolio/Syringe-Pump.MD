@@ -148,7 +148,6 @@ gallery:
       <td>M3 Thread-Forming Screw</td>
       <td>Secure brass nut and enclosure</td>
       <td>8</td>
-      <td><a href="#">Product Page</a></td>
     </tr>
     <tr>
     </tr>
@@ -190,7 +189,6 @@ gallery:
       <td>Secures motor at appropriate height and orientation to connect to lead screw</td>
     </tr>
     <tr>
-    <td><a href="#">Product Page</a></td>
     </tr>
     <tr>
     </tr>
