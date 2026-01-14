@@ -24,17 +24,17 @@ This DIY Syringe Pump can serve a potential purpose of helping someone with a di
 
 # How it Works:
 
-    Fill a standard syringe with the desired liquid and place it into the syringe holder. Secure the syringe so that the plunger is aligned with the     moving carriage.
+  Fill a standard syringe with the desired liquid and place it into the syringe holder. Secure the syringe so that the plunger is aligned with the     moving carriage.
 
-    Turn on the power supply and ensure the Arduino and motor driver are energized. The LED will indicate that the system is in an idle state.
+  Turn on the power supply and ensure the Arduino and motor driver are energized. The LED will indicate that the system is in an idle state.
 
-    Using the Arduino code, input the desired flow rate and duration for dispensing. These values determine how fast and how long the syringe            plunger will advance.
+  Using the Arduino code, input the desired flow rate and duration for dispensing. These values determine how fast and how long the syringe            plunger will advance.
 
-    Press the on/off button to begin operation. The motor will rotate the lead screw, moving the carriage forward and pushing the syringe plunger to     dispense liquid at the programmed rate. The LED will turn green while the system is running.
+  Press the on/off button to begin operation. The motor will rotate the lead screw, moving the carriage forward and pushing the syringe plunger to     dispense liquid at the programmed rate. The LED will turn green while the system is running.
 
-    The pump will continue dispensing until the programmed time is reached or until the syringe becomes empty. If the carriage reaches the end of        its travel, the limit switch will be triggered and the LED will turn red, indicating that the syringe is empty.
+  The pump will continue dispensing until the programmed time is reached or until the syringe becomes empty. If the carriage reaches the end of        its travel, the limit switch will be triggered and the LED will turn red, indicating that the syringe is empty.
 
-    Press the on/off button at any time to stop the pump. Replace or refill the syringe as needed before restarting.
+  Press the on/off button at any time to stop the pump. Replace or refill the syringe as needed before restarting.
 
 # Off-the-Shelf Parts
 
@@ -221,7 +221,9 @@ This DIY Syringe Pump can serve a potential purpose of helping someone with a di
 
 [Download Arduino Control](/arduino-code/SP2-Code.ino)
 
-[View Arduino Firmware](https://github.com/kaitlynbhannon/arduino-code/SP2-Code.ino)
+
+[View Arduino Firmware](https://github.com/kaitlynbhannon/kaitlynbhannon.github.io/blob/main/arduino-code/SP2-Code.ino)
+
 
 
 {% include gallery caption="Syringe Pump Gallery" %}
