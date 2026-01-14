@@ -8,7 +8,7 @@ title: "About Kaitlyn Hannon"
 
 On top of successfully completing her coursework, Kaitlyn has taken on leadership roles for multiple medical device projects, works as a part-time tutor, and is a member of extracurricular activities, including a dance team. 
 
-* Vanderbilt University
+* Vanderbilt University (Expected Graduation: May 2026)
   * BE Biomedical Engineering
   * Minor Digital Fabrication
 
@@ -21,6 +21,11 @@ Kaitlyn has 4+ years of hands-on experience working in the medical device field 
 * Minitab Statistical Analysis Software
 * Arduino
 * LabVIEW
+* Digital Fabrication Skills
+    * 3D Printing
+    * Soldering
+    * Arduino Programming
+    * Electrical Wiring
 
 ## Work Experience
 
