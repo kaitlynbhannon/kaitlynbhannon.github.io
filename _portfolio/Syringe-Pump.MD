@@ -226,7 +226,8 @@ This DIY Syringe Pump can serve a potential purpose of helping someone with a di
 # Firmware
 
 [Download Arduino Control](/arduino-code/SP2-Code.ino)
-[View Arduino Firmware](https://github.com/kaitlynhannon/arduino-code/SP2-Code.ino)
+
+[View Arduino Firmware](https://github.com/kaitlynbhannon/arduino-code/SP2-Code.ino)
 
 
 {% include gallery caption="Syringe Pump Gallery" %}
