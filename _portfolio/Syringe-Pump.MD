@@ -12,11 +12,35 @@ gallery:
 ---
 ---
 
-# How it Works:
+# Purpose:
+
+This DIY Syringe Pump can serve a potential purpose of helping someone with a disability feed themselves. The Arduino code can be set to a specific flow rate, allowing the contents of the syringe to be injected safely, steadily, and independently. This is just a working prototype, so please do not use this to actually feed yourself.
+
+# Features:
 
 * Syringe pump uses a motor-driven linear actuator to deliver fluid at a controlled flow rate for a specified duration. The system is constructed on an aluminum linear extrusion frame with custom 3D-printed components, including a carriage. When activated, the motor rotates a lead screw, which drives a coupler and translates the carriage linearly. This motion advances the syringe plunger, enabling precise and repeatable fluid dispensing.
 * LED light indicates when the system is in motion (green), idle (yellow), and empty (red). A limit switch is embedded in a custom 3D printed component. This switch is pressed when the carriage reaches the end of its track, indicating that the syringe is out of liquid.
 * On/off switch allows the system to start and stop with just the push of a button.
+
+# How it Works:
+
+  Load the syringe
+    Fill a standard syringe with the desired liquid and place it into the syringe holder. Secure the syringe so that the plunger is aligned with the     moving carriage.
+
+  Power on the system
+    Turn on the power supply and ensure the Arduino and motor driver are energized. The LED will indicate that the system is in an idle state.
+
+  Set the flow parameters
+    Using the Arduino code, input the desired flow rate and duration for dispensing. These values determine how fast and how long the syringe            plunger will advance.
+
+  Start dispensing
+    Press the on/off button to begin operation. The motor will rotate the lead screw, moving the carriage forward and pushing the syringe plunger to     dispense liquid at the programmed rate. The LED will turn green while the system is running.
+
+  Monitor operation
+    The pump will continue dispensing until the programmed time is reached or until the syringe becomes empty. If the carriage reaches the end of        its travel, the limit switch will be triggered and the LED will turn red, indicating that the syringe is empty.
+
+  Stop or reset
+    Press the on/off button at any time to stop the pump. Replace or refill the syringe as needed before restarting.
 
 # Off-the-Shelf Parts
 
@@ -201,6 +225,8 @@ gallery:
 
 # Firmware
 
-[View Arduino Control Code](/arduino-code/SP2-Code.ino)
+[Download Arduino Control](/arduino-code/SP2-Code.ino)
+[View Arduino Firmware](https://github.com/kaitlynhannon/syringe-pump/blob/main/code/syringe-pump/SP-Code.ino)
+
 
 {% include gallery caption="Syringe Pump Gallery" %}
