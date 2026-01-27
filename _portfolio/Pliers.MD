@@ -16,9 +16,13 @@ gallery:
 
 Print-in-place design plays a key role in this needle nose pliers project by allowing mechanical functionality to be achieved through material selection and geometry rather than traditional hardware. By pairing rigid printed handles with a flexible TPU spring element, the pliers automatically return to an open position without the need for metal springs, fasteners, or tools. This reduces part count, simplifies assembly, and improves alignment between components.
 
-This approach is especially relevant to biomedical engineering and prosthetics, where devices often require lightweight, low-cost, and customizable mechanisms that can safely interact with delicate components. Print-in-place and compliant mechanisms enable smooth, repeatable motion while minimizing complexity—an important consideration for assistive devices, prosthetic tools, and biomedical instruments. The pliers serve as a simplified example of how combining rigid and flexible materials can create functional, user-friendly mechanisms through additive manufacturing.
+This approach is especially relevant to biomedical engineering and prosthetics, my field of interest, where devices often require lightweight, low-cost, and customizable mechanisms that can safely interact with delicate components. Print-in-place and compliant mechanisms enable smooth, repeatable motion while minimizing complexity—an important consideration for assistive devices, prosthetic tools, and biomedical instruments. The pliers serve as a simplified example of how combining rigid and flexible materials can create functional, user-friendly mechanisms through additive manufacturing.
 
-Overall, print-in-place principles make this design more efficient, manufacturable, and adaptable. While this approach requires careful attention to tolerances and material behavior, it demonstrates how multi-material 3D printing can be used to create integrated, functional tools with minimal assembly and strong potential for biomedical applications.
+Check out some real-life applications of print-in-place here:
+
+  [Hinges](https://www.youtube.com/watch?v=BWsUk1xSSn4)
+  [Door Stop](https://www.printables.com/model/750734-doorstop-multimaterial-door-stopper-multi-material)
+  [Integrated Wheel and Tire (8:58)](https://www.youtube.com/watch?v=-i3SdKnfhgc)
 
 # Features:
 
