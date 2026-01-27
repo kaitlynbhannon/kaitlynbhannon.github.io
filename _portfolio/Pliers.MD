@@ -5,14 +5,18 @@ header:
   image: /assets/img/SP-Body.png
   teaser: /assets/img/SP-Carriage.png
 gallery:
-  - image_path: assets/img/SP-Wiring.jpg
+  - image_path: assets/img/multimaterial3dprinting.jpg
   - image_path: assets/img/SP-Component.png
   - image_path: assets/img/SP-Drawing.png
    
 ---
 ---
+# Purpose:
 
-# Print-in-Place Design Overview:
+Pliers will be used to pick up individual through-hole resistors.
+Due to the flexible TPU in the middle of the tool, pliers will return to their open state after compression.
+
+# A Note on Print-in-Place:
 
 Print-in-place design plays a key role in this needle nose pliers project by allowing mechanical functionality to be achieved through material selection and geometry rather than traditional hardware. By pairing rigid printed handles with a flexible TPU spring element, the pliers automatically return to an open position without the need for metal springs, fasteners, or tools. This reduces part count, simplifies assembly, and improves alignment between components.
 
