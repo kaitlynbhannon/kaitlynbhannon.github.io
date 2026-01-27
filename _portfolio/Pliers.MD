@@ -25,7 +25,9 @@ This approach is especially relevant to biomedical engineering and prosthetics, 
 Check out some real-life applications of print-in-place here:
 
   [Hinges](https://www.youtube.com/watch?v=BWsUk1xSSn4)
+
   [Door Stop](https://www.printables.com/model/750734-doorstop-multimaterial-door-stopper-multi-material)
+
   [Integrated Wheel and Tire (8:58)](https://www.youtube.com/watch?v=-i3SdKnfhgc)
 
 # Features:
