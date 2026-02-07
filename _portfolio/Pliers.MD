@@ -38,26 +38,38 @@ The combination of a flexible material for the joint and rigid material for the 
 * The TPU center has made with an 18% infill and a grid pattern with the top and bottom solid layers removed. The removal of these layers allows for optimal flexibility, while the lessened infill also increases the range of motion of the tool.
 * The plier features some grooves and ridges, simply for aesthetic purposes and because they remind me of the ocean.
 
-# How it Works:
+# Print Settings
 
-  Fill a standard syringe with the desired liquid and place it into the syringe holder. Secure the syringe so that the plunger is aligned with the     moving carriage.
+<table>
+  <thead>
+    <tr>
+      <th>Setting</th>
+      <th>Reason</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PETG Material Selection</td>
+      <td>Strong, durable, suitable for the rigid plier components</td>
+    </tr>
+    <tr>
+      <td>TPU 95A Material Selection</td>
+      <td>Flexible yet durable, suitable for the middle section of the pliers</td>
+    </tr>
+    <tr>
+      <td>18 % Infill (TPU)</td>
+      <td>Lowering the infill allows for a bigger range of motion when the TPU component is compressed</td>
+    </tr>
+    <tr>
+      <td>Grid Pattern</td>
+      <td>Due to the orientation of the TPU square, the printed grid lines will be compressed in their weakest direction (weakest shear strength), meaning it will be easier to open and close the pliers when assembled</td>
+    </tr>
+    <tr>
+    </tr>
+  </tbody>
+</table>
 
-  Turn on the power supply and ensure the Arduino and motor driver are energized. The LED will indicate that the system is in an idle state.
-
-  Using the Arduino code, input the desired flow rate and duration for dispensing. These values determine how fast and how long the syringe            plunger will advance.
-
-  Press the on/off button to begin operation. The motor will rotate the lead screw, moving the carriage forward and pushing the syringe plunger to     dispense liquid at the programmed rate. The LED will turn green while the system is running.
-
-  The pump will continue dispensing until the programmed time is reached or until the syringe becomes empty. If the carriage reaches the end of        its travel, the limit switch will be triggered and the LED will turn red, indicating that the syringe is empty.
-
-  Press the on/off button at any time to stop the pump. Replace or refill the syringe as needed before restarting.
+*Print settings not mentioned in this table were standard and unchanged, for example, PETG components were printed at their default settings on the Voron printer.
 
 # CAD Model
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028116dd7178f878972dd?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-
-# Firmware
-
-[Download Arduino Control](/arduino-code/SP2-Code.ino)
-
-
-[View Arduino Firmware](https://github.com/kaitlynbhannon/kaitlynbhannon.github.io/blob/main/arduino-code/SP2-Code.ino)
+<iframe src="https://vanderbilt643.autodesk360.com/g/shares/SH90d2dQT28d5b602811280f6cf9bb82d83fmode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
