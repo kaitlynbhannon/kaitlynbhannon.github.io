@@ -13,7 +13,7 @@ gallery:
 ---
 
 <figure class="Pliers in Action">
-  <img src="assets/img/Plier-GIF.gif" alt="Pliers in Action">
+  <img src="assets/img/Plier-GIF.GIF" alt="Pliers in Action">
   <figcaption>
     <strong>Pliers – Motion Test</strong><br>
     Pliers in Action
@@ -25,44 +25,6 @@ gallery:
 
 Pliers will be used to pick up individual through-hole resistors.
 Due to the flexible TPU in the middle of the tool, pliers return to their open state after compression.
-
-
-# The Design Process:
-
-The iterative design process often involved changing print settings and even starting from scratch multiple times. While this can be (and it really was) frustrating, I learned more with each print.
-
-<section class="The Design Process">
-  <h2>Design Iterations</h2>
-
-  <figure class="iteration">
-    <img src="/assets/img/Pliers-it1.jpg" alt="Trial 1">
-    <figcaption>
-      <strong>Iteration 1</strong><br>
-      First iteration. The concept was on the right track, but the range of motion was too limited.
-      Next step: scale up the design to improve movement.
-    </figcaption>
-  <img src="/assets/img/Pliers-it2.jpg" alt="Trial 2">
-    <figcaption>
-      <strong>Iteration 2</strong><br>
-      Woah. Way too big, and they still don't move. The infill was lowered too much. Let's go back to that first design.
-    </figcaption>
-  <img src="/assets/img/Pliers-it3.jpg" alt="Trial 3">
-    <figcaption>
-      <strong>Iteration 3</strong><br>
-      Better and cleaner, but there's no dovetails. Parts are too loose.
-    </figcaption>
-  <img src="/assets/img/Pliers-it4.jpg" alt="Trial 4">
-    <figcaption>
-      <strong>Iteration 4</strong><br>
-      Even better, and material switch to PETG. They're kind of uncomfortable to hold.
-    </figcaption>
-  <img src="/assets/img/Pliers-finalit.jpg" alt="Final Design">
-    <figcaption>
-      <strong>Final Iteration</strong><br>
-      Boom. Finger holds. And a fun color in PLA. Good stuff.
-    </figcaption>
-
-
 
 # Features:
 
@@ -130,3 +92,43 @@ Check out some real-life applications of print-in-place here:
   [Integrated Wheel and Tire (8:58)](https://www.youtube.com/watch?v=-i3SdKnfhgc)
 
 The combination of a flexible material for the joint and rigid material for the handles and front pieces has proven to be a strong pairing for effective, yet durable pliers.
+
+
+# The Design Process:
+
+The iterative design process often involved changing print settings and even starting from scratch multiple times. While this can be (and it really was) frustrating, I learned more with each print.
+
+<section class="The Design Process">
+  <h2>Design Iterations</h2>
+
+  <figure class="iteration">
+    <img src="/assets/img/Pliers-it1.jpg" alt="Trial 1">
+    <figcaption>
+      <strong>Iteration 1</strong><br>
+      First iteration. The concept was on the right track, but the range of motion was too limited.
+      Next step: scale up the design to improve movement.
+    </figcaption>
+  <img src="/assets/img/Pliers-it2.jpg" alt="Trial 2">
+    <figcaption>
+      <strong>Iteration 2</strong><br>
+      Woah. Way too big, and they still don't move. The infill was lowered too much. Let's go back to that first design.
+    </figcaption>
+  <img src="/assets/img/Pliers-it3.jpg" alt="Trial 3">
+    <figcaption>
+      <strong>Iteration 3</strong><br>
+      Better and cleaner, but there's no dovetails. Parts are too loose.
+    </figcaption>
+  <img src="/assets/img/Pliers-it4.jpg" alt="Trial 4">
+    <figcaption>
+      <strong>Iteration 4</strong><br>
+      Even better, and material switch to PETG. They're kind of uncomfortable to hold.
+    </figcaption>
+  <img src="/assets/img/Pliers-finalit.jpg" alt="Final Design">
+    <figcaption>
+      <strong>Final Iteration</strong><br>
+      Boom. Finger holds. And a fun color in PLA. Good stuff.
+    </figcaption>
+
+
+
+
