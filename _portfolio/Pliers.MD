@@ -16,21 +16,45 @@ gallery:
 Pliers will be used to pick up individual through-hole resistors.
 Due to the flexible TPU in the middle of the tool, pliers return to their open state after compression.
 
-# A Note on Print-in-Place:
+# The Design Process:
 
-Print-in-place design plays a key role in this needle nose pliers project by allowing mechanical functionality to be achieved through material selection and geometry rather than traditional hardware. By pairing rigid printed handles with a flexible TPU spring element, the pliers automatically return to an open position without the need for metal springs, fasteners, or tools. This reduces part count, simplifies assembly, and improves alignment between components.
+The iterative design process often involved changing print settings and even starting from scratch multiple times. While this can be (and it really was) frustrating, I learned more with each print.
 
-This approach is especially relevant to biomedical engineering and prosthetics, my field of interest, where devices often require lightweight, low-cost, and customizable mechanisms that can safely interact with delicate components. Print-in-place and compliant mechanisms enable smooth, repeatable motion while minimizing complexity—an important consideration for assistive devices, prosthetic tools, and biomedical instruments. The pliers serve as a simplified example of how combining rigid and flexible materials can create functional, user-friendly mechanisms through additive manufacturing.
+<section class="The Design Process">
+  <h2>Design Iterations</h2>
 
-Check out some real-life applications of print-in-place here:
-
-  [Hinges](https://www.youtube.com/watch?v=BWsUk1xSSn4)
-
-  [Door Stop](https://www.printables.com/model/750734-doorstop-multimaterial-door-stopper-multi-material)
-
-  [Integrated Wheel and Tire (8:58)](https://www.youtube.com/watch?v=-i3SdKnfhgc)
-
-The combination of a flexible material for the joint and rigid material for the handles and front pieces has proven to be a strong pairing for effective, yet durable pliers.
+  <figure class="iteration">
+    <img src="/assets/img/Pliers-it1.jpg" alt="Trial 1">
+    <figcaption>
+      <strong>Iteration 1</strong><br>
+      First iteration. The concept was on the right track, but the range of motion was too limited.
+      Next step: scale up the design to improve movement.
+    </figcaption>
+  </figure>
+  <img src="/assets/img/Pliers-it2.jpg" alt="Trial 2">
+    <figcaption>
+      <strong>Iteration 2</strong><br>
+      Woah. Way too big, and they still don't move. The infill was lowered too much. Let's go back to that first design.
+    </figcaption>
+  </figure>
+  <img src="/assets/img/Pliers-it3.jpg" alt="Trial 3">
+    <figcaption>
+      <strong>Iteration 3</strong><br>
+      Better and cleaner, but there's no dovetails. Parts are too loose.
+    </figcaption>
+  </figure>
+  <img src="/assets/img/Pliers-it4.jpg" alt="Trial 4">
+    <figcaption>
+      <strong>Iteration 4</strong><br>
+      Even better, and material switch to PETG. They're kind of uncomfortable to hold. There has to be a better way.
+    </figcaption>
+  </figure>
+  <img src="/assets/img/Pliers-finalit.jpg" alt="Final Design">
+    <figcaption>
+      <strong>Final Iteration</strong><br>
+      Boom. Finger holds. And a fun color in PLA. Good stuff.
+    </figcaption>
+  </figure>
 
 # Features:
 
@@ -49,8 +73,8 @@ The combination of a flexible material for the joint and rigid material for the 
   </thead>
   <tbody>
     <tr>
-      <td>PETG Material Selection</td>
-      <td>Strong, durable, suitable for the rigid plier components</td>
+      <td>PETG & PLA Material Selection</td>
+      <td>Stronger and more durable, suitable for the rigid plier components</td>
     </tr>
     <tr>
       <td>TPU 95A Material Selection</td>
@@ -77,3 +101,19 @@ The combination of a flexible material for the joint and rigid material for the 
 
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/g/shares/SH90d2dQT28d5b602811280f6cf9bb82d83fmode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+# A Note on Print-in-Place:
+
+Print-in-place design plays a key role in this needle nose pliers project by allowing mechanical functionality to be achieved through material selection and geometry rather than traditional hardware. By pairing rigid printed handles with a flexible TPU spring element, the pliers automatically return to an open position without the need for metal springs, fasteners, or tools. This reduces part count, simplifies assembly, and improves alignment between components.
+
+This approach is especially relevant to biomedical engineering and prosthetics, my field of interest, where devices often require lightweight, low-cost, and customizable mechanisms that can safely interact with delicate components. Print-in-place and compliant mechanisms enable smooth, repeatable motion while minimizing complexity—an important consideration for assistive devices, prosthetic tools, and biomedical instruments. The pliers serve as a simplified example of how combining rigid and flexible materials can create functional, user-friendly mechanisms through additive manufacturing.
+
+Check out some real-life applications of print-in-place here:
+
+  [Hinges](https://www.youtube.com/watch?v=BWsUk1xSSn4)
+
+  [Door Stop](https://www.printables.com/model/750734-doorstop-multimaterial-door-stopper-multi-material)
+
+  [Integrated Wheel and Tire (8:58)](https://www.youtube.com/watch?v=-i3SdKnfhgc)
+
+The combination of a flexible material for the joint and rigid material for the handles and front pieces has proven to be a strong pairing for effective, yet durable pliers.
