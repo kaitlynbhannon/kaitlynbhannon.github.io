@@ -11,17 +11,21 @@ gallery:
    
 ---
 ---
+
 <figure class="Pliers in Action">
   <img src="/assets/img/Pliers-GIF.GIF" alt="Pliers in Action">
   <figcaption>
     <strong>Pliers – Motion Test</strong><br>
     Pliers in Action
   </figcaption>
+</figure>
+
 
 # Purpose:
 
 Pliers will be used to pick up individual through-hole resistors.
 Due to the flexible TPU in the middle of the tool, pliers return to their open state after compression.
+
 
 # The Design Process:
 
@@ -58,12 +62,14 @@ The iterative design process often involved changing print settings and even sta
       Boom. Finger holds. And a fun color in PLA. Good stuff.
     </figcaption>
 
+
 # Features:
 
 * The pliers feature an open design, made with an offset on Fusion, allowing the user to have freedom in their grip. This also makes for a very lightweight design.
 * The TPU center has made with an 18% infill and a grid pattern with the top and bottom solid layers removed. The removal of these layers allows for optimal flexibility, while the lessened infill also increases the range of motion of the tool.
 * The plier features some grooves and ridges, simply for the aesthetic.
 * At 4.35" long and 2.5" at their widest length, these pliers are ideal for picking up smaller items, such as through-hole resistors. The TPU-joint is a 0.75" x 0.75" square.
+
 
 # Print Settings
 
@@ -100,10 +106,12 @@ The iterative design process often involved changing print settings and even sta
   </tbody>
 </table>
 
-* *Print settings not mentioned in this table were standard and unchanged, for example, PETG components were printed at their default settings on the Voron printer.
+* Print settings not mentioned in this table were standard and unchanged, for example, PETG components were printed at their default settings on the Voron printer.
+
 
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028113951eaf79621e366?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
 
 # A Note on Print-in-Place:
 
