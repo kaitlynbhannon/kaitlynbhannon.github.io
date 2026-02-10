@@ -13,7 +13,7 @@ gallery:
 ---
 
 <figure class="Pliers in Action">
-  <img src="assets/img/Plier-GIF.GIF" alt="Pliers in Action">
+  <img src="/assets/img/Plier-GIF.GIF" alt="Pliers in Action">
   <figcaption>
     <strong>Pliers – Motion Test</strong><br>
     Pliers in Action
@@ -130,5 +130,5 @@ The iterative design process often involved changing print settings and even sta
     </figcaption>
 
 
-
+{% include gallery caption="Pliers Gallery" %}
 
