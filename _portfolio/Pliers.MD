@@ -65,6 +65,10 @@ The combination of a flexible material for the joint and rigid material for the 
       <td>Due to the orientation of the TPU square, the printed grid lines will be compressed in their weakest direction (weakest shear strength), meaning it will be easier to open and close the pliers when assembled</td>
     </tr>
     <tr>
+      <td>0 Top and Bottom Layer Height</td>
+      <td>In order to allow for a flexible, compressive, bend that allowed the TPU grid to move as intended, the top and bottom layers of the print were removed, leaving the grid exposed.</td>
+    </tr>
+    <tr>
     </tr>
   </tbody>
 </table>
