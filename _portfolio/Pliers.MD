@@ -11,6 +11,13 @@ gallery:
    
 ---
 ---
+<figure class="Pliers in Action">
+  <img src="/assets/img/Pliers-GIF.GIF" alt="Pliers in Action">
+  <figcaption>
+    <strong>Pliers – Motion Test</strong><br>
+    Pliers in Action
+  </figcaption>
+
 # Purpose:
 
 Pliers will be used to pick up individual through-hole resistors.
