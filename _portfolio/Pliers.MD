@@ -69,7 +69,7 @@ The combination of a flexible material for the joint and rigid material for the 
   </tbody>
 </table>
 
-*Print settings not mentioned in this table were standard and unchanged, for example, PETG components were printed at their default settings on the Voron printer.
+* Print settings not mentioned in this table were standard and unchanged, for example, PETG components were printed at their default settings on the Voron printer.
 
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/g/shares/SH90d2dQT28d5b602811280f6cf9bb82d83fmode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
