@@ -68,7 +68,7 @@ The iterative design process often involved changing print settings and even sta
 * The pliers feature an open design, made with an offset on Fusion, allowing the user to have freedom in their grip. This also makes for a very lightweight design.
 * The TPU center has made with an 18% infill and a grid pattern with the top and bottom solid layers removed. The removal of these layers allows for optimal flexibility, while the lessened infill also increases the range of motion of the tool.
 * The plier features some grooves and ridges, simply for the aesthetic.
-* At 4.35" long and 2.5" at their widest length, these pliers are ideal for picking up smaller items, such as through-hole resistors. The TPU-joint is a 0.75" x 0.75" square.
+* At 4.35" long and 2.5" at their widest length, these pliers are ideal for picking up smaller items, such as through-hole resistors. The TPU-joint is a 0.75" x 0.75" square. The jaw length sits at 2", while only having a 0.3" jaw capacity. While this range may seem small, these jaws can be both extended and contracted in order to pick up larger items.
 
 
 # Print Settings
