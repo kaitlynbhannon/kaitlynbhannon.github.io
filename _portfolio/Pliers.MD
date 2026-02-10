@@ -2,12 +2,12 @@
 title: "Multi-Material Pliers"
 excerpt: "Pliers 3D printed using flexible TPU in the middle to allow full range of motion and functionality."
 header:
-  image: /assets/img/SP-Body.png
-  teaser: /assets/img/SP-Carriage.png
+  image: /assets/img/Pliers-all.png
+  teaser: /assets/img/Pliers-CAD.png
 gallery:
-  - image_path: assets/img/multimaterial3dprinting.jpg
-  - image_path: assets/img/SP-Component.png
-  - image_path: assets/img/SP-Drawing.png
+  - image_path: assets/img/Pliers-it1.jpg
+  - image_path: assets/img/Pliers-it3.jpg
+  - image_path: assets/img/Pliers-it4.jpg
    
 ---
 ---
@@ -30,37 +30,33 @@ The iterative design process often involved changing print settings and even sta
       First iteration. The concept was on the right track, but the range of motion was too limited.
       Next step: scale up the design to improve movement.
     </figcaption>
-  </figure>
   <img src="/assets/img/Pliers-it2.jpg" alt="Trial 2">
     <figcaption>
       <strong>Iteration 2</strong><br>
       Woah. Way too big, and they still don't move. The infill was lowered too much. Let's go back to that first design.
     </figcaption>
-  </figure>
   <img src="/assets/img/Pliers-it3.jpg" alt="Trial 3">
     <figcaption>
       <strong>Iteration 3</strong><br>
       Better and cleaner, but there's no dovetails. Parts are too loose.
     </figcaption>
-  </figure>
   <img src="/assets/img/Pliers-it4.jpg" alt="Trial 4">
     <figcaption>
       <strong>Iteration 4</strong><br>
-      Even better, and material switch to PETG. They're kind of uncomfortable to hold. There has to be a better way.
+      Even better, and material switch to PETG. They're kind of uncomfortable to hold.
     </figcaption>
-  </figure>
   <img src="/assets/img/Pliers-finalit.jpg" alt="Final Design">
     <figcaption>
       <strong>Final Iteration</strong><br>
       Boom. Finger holds. And a fun color in PLA. Good stuff.
     </figcaption>
-  </figure>
 
 # Features:
 
 * The pliers feature an open design, made with an offset on Fusion, allowing the user to have freedom in their grip. This also makes for a very lightweight design.
 * The TPU center has made with an 18% infill and a grid pattern with the top and bottom solid layers removed. The removal of these layers allows for optimal flexibility, while the lessened infill also increases the range of motion of the tool.
-* The plier features some grooves and ridges, simply for aesthetic purposes and because they remind me of the ocean.
+* The plier features some grooves and ridges, simply for the aesthetic.
+* At 4.35" long and 2.5" at their widest length, these pliers are ideal for picking up smaller items, such as through-hole resistors. The TPU-joint is a 0.75" x 0.75" square.
 
 # Print Settings
 
@@ -97,10 +93,10 @@ The iterative design process often involved changing print settings and even sta
   </tbody>
 </table>
 
-* Print settings not mentioned in this table were standard and unchanged, for example, PETG components were printed at their default settings on the Voron printer.
+* *Print settings not mentioned in this table were standard and unchanged, for example, PETG components were printed at their default settings on the Voron printer.
 
 # CAD Model
-<iframe src="https://vanderbilt643.autodesk360.com/g/shares/SH90d2dQT28d5b602811280f6cf9bb82d83fmode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028113951eaf79621e366?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 # A Note on Print-in-Place:
 
