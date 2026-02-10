@@ -13,7 +13,7 @@ gallery:
 ---
 
 <figure class="Pliers in Action">
-  <img src="assets/img/Pliers-GIF.GIF" alt="Pliers in Action">
+  <img src="assets/img/Pliers-GIF.gif" alt="Pliers in Action">
   <figcaption>
     <strong>Pliers – Motion Test</strong><br>
     Pliers in Action
@@ -63,6 +63,7 @@ The iterative design process often involved changing print settings and even sta
     </figcaption>
 
 
+
 # Features:
 
 * The pliers feature an open design, made with an offset on Fusion, allowing the user to have freedom in their grip. This also makes for a very lightweight design.
@@ -71,7 +72,7 @@ The iterative design process often involved changing print settings and even sta
 * At 4.35" long and 2.5" at their widest length, these pliers are ideal for picking up smaller items, such as through-hole resistors. The TPU-joint is a 0.75" x 0.75" square. The jaw length sits at 2", while only having a 0.3" jaw capacity. While this range may seem small, these jaws can be both extended and contracted in order to pick up larger items.
 
 
-# Print Settings
+# Print Settings:
 
 <table>
   <thead>
@@ -106,10 +107,11 @@ The iterative design process often involved changing print settings and even sta
   </tbody>
 </table>
 
-* Print settings not mentioned in this table were standard and unchanged, for example, PETG components were printed at their default settings on the Voron printer.
+Print settings not mentioned in this table were standard and unchanged, for example, PETG components were printed at their default settings on the Voron printer.
 
 
-# CAD Model
+# CAD Model:
+
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028113951eaf79621e366?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 
