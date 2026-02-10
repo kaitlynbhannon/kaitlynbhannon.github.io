@@ -13,7 +13,7 @@ gallery:
 ---
 
 <figure class="Pliers in Action">
-  <img src="/assets/img/Pliers-GIF.GIF" alt="Pliers in Action">
+  <img src="assets/img/Pliers-GIF.GIF" alt="Pliers in Action">
   <figcaption>
     <strong>Pliers – Motion Test</strong><br>
     Pliers in Action
