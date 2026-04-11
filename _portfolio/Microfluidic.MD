@@ -2,12 +2,13 @@
 title: "Microfluidic Pinch Flow Fractionation Device"
 excerpt: "A resin-printed microfluidic device designed to separate particles by size using pinch flow fractionation."
 header:
-  image: /assets/img/microfluidic-main.jpg
-  teaser: /assets/img/microfluidic-cad.png
+  image: /assets/img/realdevice.jpg
+  teaser: /assets/img/realdevice.jpg
 gallery:
-  - image_path: /assets/img/device-final.jpg
-  - image_path: /assets/img/math-work-1.jpg
-  - image_path: /assets/img/math-work-2.jpg
+  - image_path: /assets/img/resinprinter.jpg
+  - image_path: /assets/img/whiteboard1.jpg
+  - image_path: /assets/img/whiteboard2.jpg
+  - image_path: /assets/img/paperdevice.jpg
 ---
 
 ---
@@ -30,8 +31,8 @@ This is useful because it sorts particles without filters, which helps avoid clo
 
 Example application: sorting cells or beads in biomedical devices.
 
-Reference (proven working model):  
-https://doi.org/10.1063/1.3028652
+Reference (original design inspiration):  
+[Separation enhancement in pinched flow fractionation (Vig & Kristensen, 2008)](https://doi.org/10.1063/1.3028652)
 
 ---
 
@@ -101,11 +102,11 @@ This layout is based on my original sketch, but I made a few changes in CAD:
 # Math + Design Work:
 
 <figure>
-  <img src="/assets/img/math-work-1.jpg" alt="Math work 1">
+  <img src="/assets/img/whiteboard1.jpg" alt="Math work 1">
 </figure>
 
 <figure>
-  <img src="/assets/img/math-work-2.jpg" alt="Math work 2">
+  <img src="/assets/img/whiteboard2.jpg" alt="Math work 2">
 </figure>
 
 ---
@@ -149,7 +150,7 @@ Parylene coating helps by:
 # Testing:
 
 <figure>
-  <img src="/assets/img/device-final.jpg" alt="Final Device">
+  <img src="/assets/img/realdevice.jpg" alt="Final Device">
   <figcaption>Final PDMS device</figcaption>
 </figure>
 
