@@ -5,7 +5,7 @@ header:
   image: /assets/img/realdevice.jpg
   teaser: /assets/img/realdevice.jpg
 gallery:
-  - image_path: /assets/img/resinprinter.jpg
+  - image_path: /assets/img/resinprinter.png
   - image_path: /assets/img/whiteboard1.jpg
   - image_path: /assets/img/whiteboard2.jpg
   - image_path: /assets/img/paperdevice.jpg
