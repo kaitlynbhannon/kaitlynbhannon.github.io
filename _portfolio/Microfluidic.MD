@@ -112,7 +112,7 @@ This layout is based on my original sketch, but I made a few changes in CAD:
 
 # CAD Model:
 
-<iframe src="PASTE_YOUR_FUSION_360_LINK_HERE" width="640" height="480" allowfullscreen="true" frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b60281192e47b31f01fcc7f?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ---
 
