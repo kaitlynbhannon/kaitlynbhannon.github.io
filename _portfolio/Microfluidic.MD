@@ -149,12 +149,26 @@ Parylene coating helps by:
 
 # Testing:
 
+Here is how my device looked:
+
 <figure>
   <img src="/assets/img/realdevice.jpg" alt="Final Device">
   <figcaption>Final PDMS device</figcaption>
 </figure>
 
-<iframe width="560" height="315" src="YOUR_VIDEO_LINK_HERE" frameborder="0" allowfullscreen></iframe>
+And here is what was SUPPOSED to happen...
+
+<figure>
+  <video width="560" controls>
+    <source src="/assets/img/devicevidshort.mp4" type="video/mp4">
+  </video>
+  <figcaption>
+    <strong>Device Test Video</strong><br>
+    Expected flow behavior based on design
+  </figcaption>
+</figure>
+
+But mine, unfortunately, did not do that.
 
 ---
 
