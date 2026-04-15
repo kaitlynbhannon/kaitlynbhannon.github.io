@@ -14,81 +14,67 @@ gallery:
 
 # Purpose:
 
-This project was to design and 3D print a **bike phone mount** that:
+I designed and 3D printed a bike phone mount that:
+
 * Attaches securely to handlebars  
 * Holds different phone sizes  
 * Rotates between portrait and landscape  
 * Locks into place with a detent mechanism  
 
-The entire design was created using a **top-down modeling approach**.
+The entire design was created using a top-down modeling approach.
 
 ---
 
 # What is Top-Down Modeling?
 
-Top-down modeling is a design approach where you build all parts **in the same assembly**, using shared references (like position, size, and spacing) so everything fits together from the start.
+Top-down modeling is a design approach where all parts are built in the same assembly using shared references (like position, size, and spacing) so everything fits together from the start.
 
-Instead of designing parts separately and hoping they fit later, you:
-* Start with key components (like handlebars + phone)
-* Design everything **in place**
-* Make parts update automatically if something changes
+Instead of designing parts separately and hoping they fit later, with top-down, I was able to start with key components (like handlebars + phone), design everything in place, and make parts update automatically if something changes.
 
-For this project, it helped me:
-* Find the best distance between the **handlebar and phone screen**
-* Make sure all parts fit and moved together correctly
-* Avoid printing parts that don’t align or assemble properly
+For this project, it helped me find the best distance between the handlebar and phone screen, make sure all parts fit and moved together correctly, and avoid printing parts that didn't align or assemble properly.
 
 ---
 
 # Design Rationale:
 
-* I designed parts to **slide into each other** → cleaner prints and easier assembly  
-* Used a **clamp collar** because I’ve used it before and it works well  
-  * Can tighten for stability  
-  * Loosen slightly for rotation around the handlebar  
-* Combined the **phone clamp + detent mechanism into one part**  
-  * Makes it easy to grab and rotate the phone  
-  * Feels intuitive, especially while riding  
-* Made the phone clasp **2 mm smaller than the phone**  
-  * Uses tension to hold the phone  
-  * Eliminates need for extra supports  
-  * Leaves space for chargers or attachments  
+I designed parts to slide into each other with the rationale that cleaner prints will allow for easier assembly. I used a clamp collar design to go around the handle bar. I used the same approach in a wheelchair attachment project a few years ago and it worked well. The clamp can tan tighten for stability and loosen slightly for rotation around the handlebar.   
+
+I combined the phone clamp + detent mechanism into one part. This makes it easy to grab and rotate the phone, which feels intuitive, especially while riding.  
+
+I also made the phone clasp 2 mm smaller than the phone. It uses tension to hold the phone, eliminating the need for extra supports and leaving space for chargers or attachments.  
 
 ---
 
 # Detent Mechanism:
 
-The detent mechanism allows the phone to “click” into portrait or landscape.
+The detent mechanism allows the phone to “click” into portrait or landscape orientation.
 
-* Uses a **spring + pin/ball system**
+* Uses a spring + pin/ball system
 * Engages with set positions when rotated
-* Provides:
-  * Tactile feedback (click feeling)
-  * Prevents unwanted rotation during riding  
+* Provides tactile feedback (click feeling)
+* Prevents unwanted rotation during riding  
 
 ---
 
 # Design Changes / Iteration:
 
-* Increased depth of **spring pocket** (originally too shallow)
-* Increased diameter of **heat insert holes**
+* Increased depth of spring pocket (originally too shallow)
+* Increased diameter of heat insert holes, as I originally underestimated the diameter
 * Adjusted tolerances for smoother movement
 
 ---
 
 # Printing Choices:
 
-* Used **filament printing (FDM)**
-* Material: **TPU**
+* Used filament printing (FDM)
+* Material: TPU
 
 Why TPU:
-* Flexible → prevents clamp from cracking  
+* Flexible, prevents clamp from cracking  
 * Easier support removal  
-* Better for compression in clamp design  
+* Better for compression in clamp collar design
 
-PLA/ABS would have been:
-* Too rigid  
-* More likely to fail under tightening  
+PLA/ABS would have been too rigid and most likely would've cracked when the clamp collar was tightened. 
 
 ---
 
