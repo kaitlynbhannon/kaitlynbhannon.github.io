@@ -2,12 +2,12 @@
 title: "Top-Down Modeling Bike Phone Mount"
 excerpt: "A 3D printed bike phone mount designed using a top-down modeling approach with a rotating detent mechanism."
 header:
-  image: /assets/img/bike-main.jpg
-  teaser: /assets/img/bike-cad.png
+  image: /assets/img/completefront.jpg
+  teaser: /assets/img/component1mount.jpg
 gallery:
-  - image_path: /assets/img/bike-real.jpg
-  - image_path: /assets/img/bike-components.jpg
-  - image_path: /assets/img/bike-render.jpg
+  - image_path: /assets/img/side_assembled.jpg
+  - image_path: /assets/img/component1mount2.jpg
+  - image_path: /assets/img/top_assembled.jpg
 ---
 
 ---
@@ -41,7 +41,14 @@ I designed parts to slide into each other with the rationale that cleaner prints
 
 I combined the phone clamp + detent mechanism into one part. This makes it easy to grab and rotate the phone, which feels intuitive, especially while riding.  
 
-I also made the phone clasp 2 mm smaller than the phone. It uses tension to hold the phone, eliminating the need for extra supports and leaving space for chargers or attachments.  
+I also made the phone clasp 2 mm smaller than the phone. It uses tension to hold the phone, eliminating the need for extra supports and leaving space for chargers or attachments. 
+
+<figure>
+  <img src="/assets/img/component1mount.jpg">
+  <figcaption>
+    <strong>Final Device on Handlebars</strong>
+  </figcaption>
+</figure>
 
 ---
 
@@ -85,9 +92,23 @@ PLA/ABS would have been too rigid and most likely would've cracked when the clam
   * Insert screw + bolt  
   * Tighten to desired stiffness  
 
+<figure>
+  <img src="/assets/img/component1mount2.jpg" alt="Clamp component mounted">
+  <figcaption>
+    <strong>Final Device on Handlebars</strong>
+  </figcaption>
+</figure>
+
 * Attach phone mount:
   * Slide into the flat slot on clamp piece  
   * Press until secure  
+
+<figure>
+  <img src="/assets/img/component2pic2.jpg" alt="This part slides into the part in the previous image">
+  <figcaption>
+    <strong>Final Device on Handlebars</strong>
+  </figcaption>
+</figure>
 
 * Insert phone:
   * Stretch clasps around phone  
@@ -96,6 +117,13 @@ PLA/ABS would have been too rigid and most likely would've cracked when the clam
 * Rotate phone:
   * Turn clockwise or counterclockwise  
   * Detent locks into position  
+
+<figure>
+  <img src="/assets/img/completemounted.jpg" alt="All together!">
+  <figcaption>
+    <strong>Final Device on Handlebars</strong>
+  </figcaption>
+</figure>
 
 ---
 
@@ -108,7 +136,7 @@ PLA/ABS would have been too rigid and most likely would've cracked when the clam
 # Real Device (Mounted):
 
 <figure>
-  <img src="/assets/img/bike-real.jpg" alt="Bike phone mount on handlebars">
+  <img src="/assets/img/completemounted.jpg" alt="Bike phone mount on handlebars">
   <figcaption>
     <strong>Final Device on Handlebars</strong>
   </figcaption>
@@ -119,7 +147,7 @@ PLA/ABS would have been too rigid and most likely would've cracked when the clam
 # Rotation GIF:
 
 <figure>
-  <img src="/assets/img/bike-rotation.gif" alt="Phone rotating between orientations">
+  <img src="/assets/img/topdowngif.gif" alt="Phone rotating between orientations">
   <figcaption>
     <strong>Detent Mechanism in Action</strong><br>
     Rotation between portrait and landscape
@@ -154,7 +182,23 @@ PLA/ABS would have been too rigid and most likely would've cracked when the clam
 # Components (Top-Down Parts):
 
 <figure>
-  <img src="/assets/img/bike-components.jpg" alt="Individual components">
+  <img src="/assets/img/component1alone.jpg" alt="Component 1: Clamp Collar">
+  <figcaption>
+    <strong>Individual Components</strong><br>
+    Modeled in-place using top-down approach
+  </figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/img/component3.jpg" alt="Component 2: Stationary Platform for Detent Mechanism">
+  <figcaption>
+    <strong>Individual Components</strong><br>
+    Modeled in-place using top-down approach
+  </figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/img/component2pic1.jpg" alt="Component 3: Rotating Detent Mechanism">
   <figcaption>
     <strong>Individual Components</strong><br>
     Modeled in-place using top-down approach
@@ -181,7 +225,20 @@ This approach worked especially well for a project like this where:
 * Movement matters  
 * Fit is critical  
 
-Overall, the design is simple, functional, and easy to use while riding.
+Areas for improvement:
+* Over time and with additional weight added from the phone, the TPU began to stretch
+* This removed the majority of the tension in the clamp collar 
+* For another iteration, I think I should print the clamp collar out of a more rigid material, maybe PETG, and i should also make it larger so it is strong enough to support the weight of a phone
+
+<figure>
+  <img src="/assets/img/tpufail.jpg" alt="Notice the TPU stretching, which was not happening in the images above without the phone attached.">
+  <figcaption>
+    <strong>Area for Improvement</strong><br>
+    Stronger and more rigid material choice for clamp collar.
+  </figcaption>
+</figure>
+
+While there is room for improvement, overall, the design is simple, functional, and easy to use while riding.
 
 ---
 
