@@ -147,7 +147,7 @@ PLA/ABS would have been too rigid and most likely would've cracked when the clam
 # Rotation GIF:
 
 <figure>
-  <img src="/assets/img/topdown_gif_real.mov" alt="Phone rotating between orientations">
+  <img src="/assets/img/topdowngiffinal.gif" alt="Phone rotating between orientations">
   <figcaption>
     <strong>Detent Mechanism in Action</strong><br>
     Rotation between portrait and landscape
