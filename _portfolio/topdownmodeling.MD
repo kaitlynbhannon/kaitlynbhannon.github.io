@@ -46,7 +46,7 @@ I also made the phone clasp 2 mm smaller than the phone. It uses tension to hold
 <figure>
   <img src="/assets/img/component1mount.jpg">
   <figcaption>
-    <strong>Final Device on Handlebars</strong>
+    <strong>Clamp on Handlebars</strong>
   </figcaption>
 </figure>
 
@@ -95,7 +95,7 @@ PLA/ABS would have been too rigid and most likely would've cracked when the clam
 <figure>
   <img src="/assets/img/component1mount2.jpg" alt="Clamp component mounted">
   <figcaption>
-    <strong>Final Device on Handlebars</strong>
+    <strong>Clamp Component Mounted</strong>
   </figcaption>
 </figure>
 
@@ -106,7 +106,7 @@ PLA/ABS would have been too rigid and most likely would've cracked when the clam
 <figure>
   <img src="/assets/img/component2pic2.jpg" alt="This part slides into the part in the previous image">
   <figcaption>
-    <strong>Final Device on Handlebars</strong>
+    <strong>Phone Holding Component</strong>
   </figcaption>
 </figure>
 
@@ -136,9 +136,9 @@ PLA/ABS would have been too rigid and most likely would've cracked when the clam
 # Real Device (Mounted):
 
 <figure>
-  <img src="/assets/img/completemounted.jpg" alt="Bike phone mount on handlebars">
+  <img src="/assets/img/completefront.jpg" alt="Bike phone mount on handlebars">
   <figcaption>
-    <strong>Final Device on Handlebars</strong>
+    <strong>All together!</strong>
   </figcaption>
 </figure>
 
@@ -147,7 +147,7 @@ PLA/ABS would have been too rigid and most likely would've cracked when the clam
 # Rotation GIF:
 
 <figure>
-  <img src="/assets/img/topdowngif.gif" alt="Phone rotating between orientations">
+  <img src="/assets/img/topdown_gif_real.mov" alt="Phone rotating between orientations">
   <figcaption>
     <strong>Detent Mechanism in Action</strong><br>
     Rotation between portrait and landscape
