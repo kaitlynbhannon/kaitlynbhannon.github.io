@@ -1,143 +1,165 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3D Printed Pickleball Paddle Project</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f4f6f8;
-            color: #333;
-        }
-        header {
-            background-color: #1f3c88;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        section {
-            margin: 20px auto;
-            padding: 20px;
-            max-width: 900px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-        h2 {
-            color: #1f3c88;
-        }
-        .image-placeholder {
-            width: 100%;
-            height: 250px;
-            background-color: #ddd;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 15px 0;
-            border-radius: 8px;
-            color: #666;
-            font-style: italic;
-        }
-        footer {
-            text-align: center;
-            padding: 15px;
-            font-size: 14px;
-            color: #777;
-        }
-    </style>
-</head>
-<body>
+---
+title: "3D Printed Pickleball Paddle"
+excerpt: "A modular pickleball paddle with a PLA face, TPU handle, and snap-on edge guard designed for performance and durability."
+header:
+  image: /assets/img/paddle_full.jpg
+  teaser: /assets/img/paddle_teaser.jpg
+gallery:
+  - image_path: /assets/img/paddle_side.jpg
+  - image_path: /assets/img/paddle_handle.jpg
+  - image_path: /assets/img/paddle_guard.jpg
+---
 
-<header>
-    <h1>3D Printed Pickleball Paddle Project</h1>
-    <p>Rapid Prototyping Design | DF-2100 Bonus Project</p>
-</header>
+---
 
-<section>
-    <h2>Overview</h2>
-    <p>
-        This project focused on designing and manufacturing a fully functional pickleball paddle using additive manufacturing. 
-        The paddle meets 2026 USA Pickleball standards while integrating aerodynamic, ergonomic, and modular design features. 
-        The paddle face and handle were printed separately due to printer size constraints and assembled using a snap-fit mechanism.
-    </p>
+# Purpose:
 
-    <div class="image-placeholder">Insert Full Paddle Image Here</div>
-</section>
+I designed and 3D printed a pickleball paddle that:
 
-<section>
-    <h2>Design Features</h2>
-    <ul>
-        <li><strong>Paddle Face:</strong> Blue PLA with aerodynamic gap at the bottom</li>
-        <li><strong>Handle:</strong> Black TPU, 12% infill, internal gap for grip and flexibility</li>
-        <li><strong>Edge Guard:</strong> Black TPU snap-on protective guard</li>
-        <li><strong>Assembly:</strong> Snap-fit connection between handle and paddle</li>
-    </ul>
+* Meets 2026 USA Pickleball rule requirements  
+* Survives real gameplay conditions  
+* Improves grip and comfort using TPU  
+* Protects the paddle with an interchangeable edge guard  
+* Optimizes weight and balance for performance  
 
-    <div class="image-placeholder">Insert Exploded View / CAD Model Here</div>
-</section>
+The paddle was designed as a modular system, with the face and handle printed separately and assembled together.
 
-<section>
-    <h2>1. Paddle Design & Rule Compliance (3%)</h2>
-    <p>
-        The paddle was designed to comply with the 2026 USA Pickleball Equipment Standards Manual. The total dimensions were kept under the 
-        24-inch combined length and width limit, and the paddle length did not exceed 17 inches. PLA was selected for the paddle face due to 
-        its rigidity and non-compressible properties, ensuring compliance with material requirements. The hitting surface was printed smooth 
-        and flat to avoid excessive roughness that could generate illegal spin. An aerodynamic gap was incorporated into the lower section 
-        of the paddle to reduce drag and improve maneuverability without compromising structural integrity. The paddle successfully withstood 
-        gameplay conditions and maintained durability throughout testing.
-    </p>
+---
 
-    <div class="image-placeholder">Insert Paddle Surface Close-Up</div>
-</section>
+# Design Overview:
 
-<section>
-    <h2>2. TPU Handle & Edge Guard (3%)</h2>
-    <p>
-        The handle was printed using black TPU at 12% infill to maximize comfort and flexibility. A gap was intentionally designed within the 
-        handle to enhance grip and allow slight deformation during use, improving ergonomics and control. The handle connects to the paddle 
-        via a snap-fit mechanism that was precisely modeled to match the paddle geometry, resulting in a secure and accurate fit. However, 
-        under high swing forces, the snap-fit connection may pose a risk if the material tension is exceeded.
-    </p>
+The paddle face was printed in blue PLA to provide a rigid, non-compressible hitting surface. A gap was intentionally designed in the lower portion of the paddle to reduce air resistance and slightly decrease weight for improved maneuverability.
 
-    <p>
-        The paddle also includes an interchangeable TPU edge guard designed to protect the paddle face from impact with the ground. The guard 
-        snaps onto the paddle edges and absorbs impact effectively. One limitation observed was that TPU tends to stretch over time, causing 
-        the guard to loosen. In future iterations, tighter tolerances would improve long-term fit and retention.
-    </p>
+The handle was printed in black TPU at 12% infill. It includes an internal gap to improve grip, flexibility, and comfort during gameplay. This allows slight deformation when held, making it feel more natural in hand.
 
-    <div class="image-placeholder">Insert Handle Close-Up</div>
-    <div class="image-placeholder">Insert Edge Guard Image</div>
-</section>
+The handle connects to the paddle using a snap-fit joint that was modeled to exactly match the paddle geometry. This results in a very tight and accurate fit, but under high swing forces, it may pose a risk if the connection loses tension.
 
-<section>
-    <h2>3. Weight & Mass Balance Optimization (1%)</h2>
-    <p>
-        The paddle was designed with a focus on achieving a midweight classification (7.3–8.3 oz) to balance power and control. The use of PLA 
-        for the paddle face provided a stable hitting surface, while TPU in the handle reduced overall weight and shifted the center of mass 
-        slightly toward the grip. This resulted in improved maneuverability and reduced fatigue during gameplay. The aerodynamic gap further 
-        reduced excess material, contributing to weight optimization. Overall, the paddle achieves a balanced feel suitable for controlled, 
-        responsive play while still maintaining sufficient power.
-    </p>
+<figure>
+  <img src="/assets/img/paddle_exploded.jpg">
+  <figcaption>
+    <strong>Exploded View of Paddle Components</strong>
+  </figcaption>
+</figure>
 
-    <div class="image-placeholder">Insert Weight Distribution Diagram</div>
-</section>
+---
 
-<section>
-    <h2>Manufacturing Process</h2>
-    <p>
-        Due to the 300 x 300 mm build plate limitation of the Voron 3D printers, the paddle face and handle were printed separately. Prints 
-        were scheduled overnight to ensure completion. The paddle face was printed in PLA, while the handle and edge guard were printed in TPU. 
-        Components were assembled using a snap-fit connection, eliminating the need for additional hardware such as bolts or inserts.
-    </p>
+# Rule Compliance:
 
-    <div class="image-placeholder">Insert Print Setup Image</div>
-</section>
+The paddle was designed to follow the 2026 USA Pickleball Equipment Standards:
 
-<footer>
-    <p>Created for DF-2100 Rapid Prototyping | 2026</p>
-</footer>
+* Total combined length and width under 24 inches  
+* Paddle length under 17 inches  
+* Rigid, non-compressible face material (PLA)  
+* Smooth surface with no texture to prevent excessive spin  
 
-</body>
-</html>
+The flat printed surface ensures no illegal roughness or spin-enhancing features are introduced.
+
+---
+
+# TPU Handle (Grip Enhancement):
+
+The handle uses TPU to improve grip and comfort.
+
+* Printed at 12% infill for flexibility  
+* Internal gap allows compression and ergonomic grip  
+* Reduces hand fatigue during extended gameplay  
+
+This design prioritizes comfort while maintaining enough structural integrity for control.
+
+<figure>
+  <img src="/assets/img/handle_close.jpg" alt="TPU handle">
+  <figcaption>
+    <strong>TPU Handle with Internal Gap</strong>
+  </figcaption>
+</figure>
+
+---
+
+# Edge Guard (Interchangeable Protection):
+
+The paddle includes a snap-on TPU edge guard designed to protect the paddle face.
+
+* Absorbs impact when hitting the ground  
+* Easily removable and replaceable  
+* Flexible material prevents cracking  
+
+One limitation observed is that TPU stretches over time, causing the guard to loosen. In a future iteration, I would slightly reduce the dimensions to improve long-term fit.
+
+<figure>
+  <img src="/assets/img/edge_guard.jpg" alt="Edge guard">
+  <figcaption>
+    <strong>Snap-On TPU Edge Guard</strong>
+  </figcaption>
+</figure>
+
+---
+
+# Weight & Mass Balance:
+
+The paddle was designed to fall within the **midweight range (7.3–8.3 oz)** to balance power and control.
+
+* PLA face provides stability and hitting power  
+* TPU handle reduces weight and shifts balance toward the grip  
+* Aerodynamic gap reduces unnecessary mass  
+
+This results in improved maneuverability while still maintaining effective shot power.
+
+---
+
+# Printing Strategy:
+
+Due to the 300 x 300 mm build plate limitation of the Voron printers, the paddle was printed in two parts:
+
+* Paddle face (PLA)  
+* Handle + edge guard (TPU)  
+
+Prints were scheduled overnight (starting around 5–6 PM) to allow for full completion.
+
+Instead of using bolts or inserts, a snap-fit connection was used for assembly, simplifying the build process.
+
+---
+
+# Assembly:
+
+* Attach handle:
+  * Align snap-fit joint with paddle base  
+  * Press firmly until fully seated  
+
+* Attach edge guard:
+  * Stretch TPU guard around paddle edge  
+  * Snap into place  
+
+<figure>
+  <img src="/assets/img/assembly.jpg" alt="Assembly process">
+  <figcaption>
+    <strong>Paddle Assembly</strong>
+  </figcaption>
+</figure>
+
+---
+
+# Design Challenges & Iteration:
+
+* TPU edge guard became loose over time due to material stretching  
+* Snap-fit connection may not withstand very high swing forces  
+* Tolerances could be refined for longer-term durability  
+
+If redesigned:
+
+* Reduce edge guard dimensions for tighter fit  
+* Consider hybrid attachment (snap-fit + mechanical fastener)  
+* Reinforce handle connection for safety  
+
+---
+
+# Final Thoughts:
+
+This project successfully demonstrates how additive manufacturing can be used to create a functional sports device that meets real-world constraints.
+
+The combination of PLA and TPU allowed for a balance between rigidity and comfort, while modular design made the paddle adaptable and easy to assemble.
+
+While there are areas for improvement, the paddle is lightweight, functional, and capable of withstanding gameplay.
+
+---
+
+{% include gallery caption="Pickleball Paddle Project Gallery" %}
