@@ -51,7 +51,7 @@
 <body>
 
 <header>
-    <h1>🏓 3D Printed Pickleball Paddle Project</h1>
+    <h1>3D Printed Pickleball Paddle Project</h1>
     <p>Rapid Prototyping Design | DF-2100 Bonus Project</p>
 </header>
 
