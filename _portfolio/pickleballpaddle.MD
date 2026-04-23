@@ -96,7 +96,7 @@ One limitation observed is that TPU stretches over time, causing the guard to lo
 
 # Weight & Mass Balance:
 
-The paddle was designed to fall within the **midweight range (7.3–8.3 oz)** to balance power and control.
+The paddle was designed to fall within the midweight range (7.3–8.3 oz) to balance power and control.
 
 * PLA face provides stability and hitting power  
 * TPU handle reduces weight and shifts balance toward the grip  
@@ -113,8 +113,6 @@ Due to the 300 x 300 mm build plate limitation of the Voron printers, the paddle
 * Paddle face (PLA)  
 * Handle + edge guard (TPU)  
 
-Prints were scheduled overnight (starting around 5–6 PM) to allow for full completion.
-
 Instead of using bolts or inserts, a snap-fit connection was used for assembly, simplifying the build process.
 
 ---
@@ -123,7 +121,9 @@ Instead of using bolts or inserts, a snap-fit connection was used for assembly, 
 
 * Attach handle:
   * Align snap-fit joint with paddle base  
-  * Press firmly until fully seated  
+  * Press firmly until fully seated
+  * The TPU expands to fit around the base of the blue paddle
+  * DISCLAIMER: This is NOT a safe attachment for real gameplay, only for the aesthetics of the design. The paddle face can still fly out of the handle resulting in serious injury to your opponent. Do with that information what you will.
 
 * Attach edge guard:
   * Stretch TPU guard around paddle edge  
