@@ -2,7 +2,7 @@
 title: "3D Printed Pickleball Paddle"
 excerpt: "A modular pickleball paddle with a PLA face, TPU handle, and snap-on edge guard designed for performance and durability."
 header:
-  image: /assets/img/paddle_front.jpg
+  image: /assets/img/mona_kk_paddles.jpg
   teaser: /assets/img/paddle_front.jpg
 gallery:
   - image_path: /assets/img/paddle_front.jpg
