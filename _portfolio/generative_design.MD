@@ -86,25 +86,32 @@ A total of seven loading conditions were applied to simulate realistic riding sc
 ### Applied Forces
 
 - Vertical load (rider weight):  
-  **600 N applied to each axle ends the downward direction**
+    
+    600 N applied to each axle ends the downward direction
 
 - Lateral load (carving):  
-  **1200 N applied at axle ends in the lateral direction**
+  
+    1200 N applied at axle ends in the lateral direction
 
 - Motor drive torque:  
-  **8000 Nmm applied at motor shaft in belt direction**
+  
+    8000 Nmm applied at motor shaft in belt direction
 
 - Braking load (reverse motor):  
-  **800 N applied opposite motor direction**
+  
+    800 N applied opposite motor direction
 
 - Impact load (bump force):
-  **500 N applied at each axle at a 0 degrees angle**
+
+    500 N applied at each axle at a 0 degrees angle
 
 - Shear load (carving):
-  **1200 N applied at each axle, one in the forward direction and the other in the backward direction**
+  
+    1200 N applied at each axle, one in the forward direction and the other in the backward direction
 
 - Motor mount torque
-  **9000 Nmm applied in the direction of the motor mount, perpendicular to the pulley system**
+  
+    9000 Nmm applied in the direction of the motor mount, perpendicular to the pulley system
 
 Each force was chosen to represent a realistic physical scenario, including rider weight, turning, propulsion, braking, and terrain impact. Notice how some of these forces, for example, the weight of the rider, are on the high end. I purposely used very high loads to simulate more extreme riding conditions to ensure that the truck could withstand the weight of most riders and some intense wipeouts, as well.
 
@@ -133,7 +140,7 @@ Two materials were used in the generative design study:
 
 The objective was to minimize mass while maintaining a safety factor of at least 2.
 
-The manufacturing setting was left as **Unrestricted**, allowing the algorithm full freedom to explore optimal geometries.
+The manufacturing setting was left as unrestricted, allowing the algorithm full freedom to explore optimal geometries.
 
 ---
 
@@ -141,26 +148,27 @@ The manufacturing setting was left as **Unrestricted**, allowing the algorithm f
 
 ### Aluminum (AlSi10Mg)
 
-<iframe src="**EMBED LINK HERE**" width="640" height="480" allowfullscreen="true" frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811d836c8ad8365bbf7?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ### Stainless Steel (17-4 PH)
 
-<iframe src="**EMBED LINK HERE**" width="640" height="480" allowfullscreen="true" frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811d6ca7f3fe206ad94?mode=embed" width="640" height="480" allowfullscreen="true" frameborder="0"></iframe>
 
 ---
 
 ### Observations
 
-- **Describe differences in geometry between materials**  
-- **Comment on mass differences**  
-- **Discuss stiffness vs weight tradeoffs**  
+- Notice the extreme difference in extra material on the aluminum model vs the slim nature of the stainless steel 
+- Aluminum builds around the preserved geometries, while steel remains flat around preserved regions
+- The aluminum model's mass is 1.104 kg, while the stainless steel weighs 0.442 kg. Naturally, the steel is the preferred choice to manufacture.
+- Although the aluminum is so heavy, it can withstand the gnarliest of wipeouts. This model allows for more rigorous riding and is more forgiving. The steel, while sleek, appealing, and allowing for easy carving and movement, its lack of stiffness means that riders must exhibit precaution when riding.
 
 ---
 
 # Final Assembly Rendering:
 
 <figure>
-  <img src="/assets/img/FINAL_ASSEMBLY.jpg" alt="Final Longboard Assembly">
+  <img src="/assets/img/render_new.jpg" alt="Final Longboard Assembly">
   <figcaption>Generative design hanger integrated into full longboard system</figcaption>
 </figure>
 
