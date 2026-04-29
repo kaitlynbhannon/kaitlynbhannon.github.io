@@ -2,12 +2,12 @@
 title: "3D Printed Pickleball Paddle"
 excerpt: "A modular pickleball paddle with a PLA face, TPU handle, and snap-on edge guard designed for performance and durability."
 header:
-  image: /assets/img/paddle_full.jpg
-  teaser: /assets/img/paddle_teaser.jpg
+  image: /assets/img/paddle_front.jpg
+  teaser: /assets/img/paddle_front.jpg
 gallery:
-  - image_path: /assets/img/paddle_side.jpg
-  - image_path: /assets/img/paddle_handle.jpg
-  - image_path: /assets/img/paddle_guard.jpg
+  - image_path: /assets/img/paddle_front.jpg
+  - image_path: /assets/img/handle1.jpg
+  - image_path: /assets/img/handle2.jpg
 ---
 
 ---
@@ -35,7 +35,7 @@ The handle was printed in black TPU at 12% infill. It includes an internal gap t
 The handle connects to the paddle using a snap-fit joint that was modeled to exactly match the paddle geometry. This results in a very tight and accurate fit, but under high swing forces, it may pose a risk if the connection loses tension.
 
 <figure>
-  <img src="/assets/img/paddle_exploded.jpg">
+  <img src="/assets/img/paddle_front.jpg">
   <figcaption>
     <strong>Exploded View of Paddle Components</strong>
   </figcaption>
@@ -67,7 +67,7 @@ The handle uses TPU to improve grip and comfort.
 This design prioritizes comfort while maintaining enough structural integrity for control.
 
 <figure>
-  <img src="/assets/img/handle_close.jpg" alt="TPU handle">
+  <img src="/assets/img/handle1.jpg" alt="TPU handle">
   <figcaption>
     <strong>TPU Handle with Internal Gap</strong>
   </figcaption>
@@ -84,13 +84,6 @@ The paddle includes a snap-on TPU edge guard designed to protect the paddle face
 * Flexible material prevents cracking  
 
 One limitation observed is that TPU stretches over time, causing the guard to loosen. In a future iteration, I would slightly reduce the dimensions to improve long-term fit.
-
-<figure>
-  <img src="/assets/img/edge_guard.jpg" alt="Edge guard">
-  <figcaption>
-    <strong>Snap-On TPU Edge Guard</strong>
-  </figcaption>
-</figure>
 
 ---
 
