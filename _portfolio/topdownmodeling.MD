@@ -129,7 +129,17 @@ PLA/ABS would have been too rigid and most likely would've cracked when the clam
 
 # CAD Model:
 
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b60281154996812b1fcbe5a?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<div align="center">
+  <iframe 
+    src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811d41c0b96d816594c?mode=embed" 
+    width="640" 
+    height="480" 
+    allowfullscreen="true" 
+    webkitallowfullscreen="true" 
+    mozallowfullscreen="true" 
+    frameborder="0">
+  </iframe>
+</div>
 
 ---
 
