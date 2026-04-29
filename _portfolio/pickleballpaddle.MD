@@ -122,12 +122,8 @@ Instead of using bolts or inserts, a snap-fit connection was used for assembly, 
   * Stretch TPU guard around paddle edge  
   * Snap into place  
 
-<figure>
-  <img src="/assets/img/assembly.jpg" alt="Assembly process">
-  <figcaption>
-    <strong>Paddle Assembly</strong>
-  </figcaption>
-</figure>
+# CAD Model
+<iframe src="<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811d41c0b96d816594c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ---
 
