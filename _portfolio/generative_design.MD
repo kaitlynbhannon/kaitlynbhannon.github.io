@@ -2,8 +2,8 @@
 title: "Generative Design Skateboard Truck Hanger + Motor Mount"
 excerpt: "A generative design study to create a lightweight skateboard truck hanger with an integrated motor mount, optimized for structural performance under realistic riding loads."
 header:
-  image: /assets/img/RENDER_IMAGE_HERE.jpg
-  teaser: /assets/img/TEASER_IMAGE_HERE.jpg
+  image: /assets/img/render.jpg
+  teaser: /assets/img/full_birdseye.jpg
 gallery:
   - image_path: /assets/img/IMAGE1.jpg
   - image_path: /assets/img/IMAGE2.jpg
@@ -168,7 +168,7 @@ The manufacturing setting was left as unrestricted, allowing the algorithm full 
 # Final Assembly Rendering:
 
 <figure>
-  <img src="/assets/img/render_new.jpg" alt="Final Longboard Assembly">
+  <img src="/assets/img/render.jpg" alt="Final Longboard Assembly">
   <figcaption>Generative design hanger integrated into full longboard system</figcaption>
 </figure>
 
@@ -177,28 +177,35 @@ The manufacturing setting was left as unrestricted, allowing the algorithm full 
 # Physical Prototype:
 
 <figure>
-  <img src="/assets/img/PRINTED_MODEL.jpg" alt="Printed Model">
+  <img src="/assets/img/alone.jpg" alt="Printed Model">
   <figcaption>Nylon 12 printed prototype for fit and assembly validation</figcaption>
 </figure>
 
 <figure>
-  <img src="/assets/img/INSTALLED_MODEL.jpg" alt="Installed Model">
+  <img src="/assets/img/full_assembly.jpg" alt="Installed Model">
   <figcaption>Prototype installed on longboard deck</figcaption>
 </figure>
 
----
+My part fits and works! Thanks to the clearances and obstacle geometry I made, there are no interferences and everything operates smoothly. In this assembly, no nut was present on top of the top bushing. Otherwise, all components are here working together!
+
+
 
 # Motion Verification:
 
 ### Turning Clearance
 
-**INSERT GIF HERE**
+<figure>
+  <img src="/assets/img/carving_gif.gif" alt="Turning Clearance GIF">
+  <figcaption>Truck turning motion showing adequate clearance around the pivot and bushings</figcaption>
+</figure>
 
 ### Motor + Belt Motion
 
-**INSERT GIF HERE**
+<figure>
+  <img src="/assets/img/motor_gif.gif" alt="Motor and Belt Motion GIF">
+  <figcaption>Motor driving the pulley, belt, and wheel system</figcaption>
+</figure>
 
----
 
 # Discussion:
 
@@ -206,7 +213,9 @@ The manufacturing setting was left as unrestricted, allowing the algorithm full 
 
 Generative design pairs naturally with powder bed fusion because both enable the creation of complex geometries that would be difficult or impossible to manufacture using traditional methods.
 
-**INSERT EXAMPLE FROM AEROSPACE OR AUTOMOTIVE WITH LINK**
+Here's some examples of generative design in aerospace: 
+
+[Generative Design in Aerospace](https://www.aerospacemanufacturinganddesign.com/article/generative-design-in-aerospace/)
 
 This combination allows:
 - Reduced part count  
@@ -220,25 +229,26 @@ This combination allows:
 The accuracy of generative design outcomes depends heavily on the applied loads.
 
 In this project:
-- Loads were chosen based on **realistic riding scenarios**  
+- Loads were chosen based on realistic riding scenarios 
 - Different conditions such as turning, braking, and impact were considered  
 
-**Explain how you determined your final forces and what you changed**
+In order to ensure that the stainless steel generative design would be strong enough and thick enough to support the weight of the motor and wheels, I overestimated the weight of the rider. I also added both shear and lateral forces to simulate carving. Additionally, both axles are supporting impact force at the same time. While all of these load cases might not be occuring at the same time, simulating all of these forces together allows my part to be built to withstand more.
 
 ---
 
 ### Material Comparison
 
-- **AlSi10Mg:**  
-  **Describe behavior (lighter, more material needed, etc.)**
+- AlSi10Mg:  
+ lighter, more material needed, generative designs end up quite bulky and large
 
-- **17-4 PH Stainless Steel:**  
-  **Describe behavior (stronger, denser, more compact geometry)**  
+- 17-4 PH Stainless Steel: 
+  stronger, denser, more compact geometry
 
-Discuss how material properties influenced:
-- Load paths  
-- Thickness of members  
-- Overall mass  
+The 17-4 PH stainless steel outcome was the more favorable design because it produced cleaner and more defined load paths while maintaining a lighter-looking, more open structure. The stainless steel result formed strong triangular support members between the axle, pivot region, and motor mount, which makes sense because those are the major areas where forces are transferred through the hanger. The design also preserved more open space, making the final geometry easier to understand and more visually similar to an optimized truss-like structure.
+
+The AlSi10Mg aluminum outcome required more material around the same load paths because aluminum is less stiff and has lower strength than stainless steel. As a result, the aluminum version appeared bulkier, especially around the axle, motor mount, and central hanger region. The members were thicker and more filled-in, which suggests that Fusion needed additional material to meet the required safety factor under the same loading conditions.
+
+Overall, the stainless steel design was more successful for this project because the higher strength and stiffness of 17-4 PH allowed the generative design study to remove more unnecessary material while still supporting the applied forces. Although stainless steel is denser than aluminum, the resulting geometry was more structurally efficient and had cleaner load paths. The aluminum design may be lighter in material density, but it required a bulkier shape to compensate for its lower mechanical properties.
 
 ---
 
