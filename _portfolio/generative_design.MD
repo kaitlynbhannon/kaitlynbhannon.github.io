@@ -2,8 +2,8 @@
 title: "Generative Design Skateboard Truck Hanger + Motor Mount"
 excerpt: "A generative design study to create a lightweight skateboard truck hanger with an integrated motor mount, optimized for structural performance under realistic riding loads."
 header:
-  image: /assets/img/render.png
-  teaser: /assets/img/another_birdseye.jpg
+  image: /assets/img/another_birdseye.jpg
+  teaser: /assets/img/render.png
 gallery:
   - image_path: /assets/img/pivot_close.jpg
   - image_path: /assets/img/full_birdseye.jpg
